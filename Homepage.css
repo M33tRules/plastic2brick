@@ -1,0 +1,95 @@
+.bg-image {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+
+.img1 {
+    background-image:
+url('pexels-catiamatos-1072179.jpg');
+}
+.img2 {
+    background-image:
+url('pexels-ancatakespics-19582583.jpg');
+}
+img {
+    height: 350px;
+}
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: -120px;
+}
+p {
+    font-size: 25px;
+    color: aliceblue;
+}
+.button {
+    background-color: #049320; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Padding for the container */
+    color: aliceblue; /* Text color */
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    margin: 0 10px; /* Space between columns */
+    padding: 10px; /* Padding inside columns */
+    display: flex; /* Make the column a flex container */
+    flex-direction: column; /* Ensure text stacks vertically */
+    justify-content: flex-start; /* Align items to the top */
+    min-height: 300px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #054700; /* Base color of the footer */
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer .left-side {
+    font-size: 18px;
+}
+
+.footer .right-side {
+    display: flex;
+    align-items: center;
+}
+
+.footer .right-side a {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.footer .right-side a i {
+    margin-right: 10px;
+}
